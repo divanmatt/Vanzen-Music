@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vanzen Music</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background-color: #0e0e0e;
+      color: white;
+    }
+
+    header {
+      background: linear-gradient(90deg, #200e42, #6e00ff);
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header img {
+      height: 60px;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      margin: 0;
+      letter-spacing: 2px;
+    }
+
+    main {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section-title {
+      font-size: 1.8rem;
+      color: #ffa800;
+      margin-top: 40px;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #ffa800;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .services, .licencias {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #1a1a1a;
+      border: 1px solid #333;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #ffa800;
+      font-size: 1.3rem;
+    }
+
+    iframe {
+      width: 100%;
+      height: 315px;
+      border: none;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    footer {
+      background: #1a1a1a;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 40px;
+    }
+
+    footer p {
+      margin: 10px 0;
+    }
+
+    .payment {
+      background: #290842;
+      color: #ffa800;
+      padding: 15px;
+      border-radius: 10px;
+      margin-top: 20px;
+      font-size: 1.1rem;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>VANZEN MUSIC</h1>
+    <img src="img/logo.jpg" alt="Vanzen Logo">
+  </header>
+
+  <main>
+    <section>
+      <h2 class="section-title">Servicios Profesionales</h2>
+      <div class="services">
+        <div class="card">
+          <h3>Mezcla Profesional</h3>
+          <p>Precio: $100 USD</p>
+          <p>Audio optimizado para competir en el mercado urbano.</p>
+        </div>
+        <div class="card">
+          <h3>Mastering Profesional</h3>
+          <p>Precio: $120 USD</p>
+          <p>Volumen competitivo y claridad para plataformas digitales.</p>
+        </div>
+        <div class="card">
+          <h3>Mezcla + Mastering</h3>
+          <p>Precio: $190 USD</p>
+          <p>Servicio completo con resultados profesionales garantizados.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Licencias de Beats</h2>
+      <div class="licencias">
+        <div class="card">
+          <h3>Beat No Exclusivo</h3>
+          <p>Precio: $30 USD</p>
+          <ul>
+            <li>MP3 + WAV sin tags</li>
+            <li>Streams y copias ilimitadas</li>
+            <li>Uso en Spotify, YouTube</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Beat Exclusivo</h3>
+          <p>Precio: $80 USD</p>
+          <ul>
+            <li>Pistas separadas</li>
+            <li>Derechos totales</li>
+            <li>Uso comercial completo</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Catálogo</h2>
+      <p>Escuchá todos los beats disponibles directamente desde nuestro canal:</p>
+      <iframe src="https://www.youtube.com/embed/videoseries?list=UUZJVywnNO3H7hQKnVt04fVw" allowfullscreen></iframe>
+    </section>
+
+    <section>
+      <h2 class="section-title">Pagos y Contacto</h2>
+      <div class="payment">
+        Realizá el pago a través de Mercado Pago al alias: <strong>divan.matt</strong>
+      </div>
+      <p>📧 Email: v.a.n.z.e.n@hotmail.com</p>
+      <p>📱 Instagram: @Vanzen.music</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Vanzen Music. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
